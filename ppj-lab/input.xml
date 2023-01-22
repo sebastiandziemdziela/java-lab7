@@ -1,0 +1,44 @@
+<configuration>
+    <airplane mark="BOEING">
+        <type>737-100</type>
+        <seat type="FIRST" >
+            <count>5</count>
+            <price>1.2</price>
+        </seat>
+        <seat type="BUSINESS">
+            <count>20</count>
+            <price>1.1</price>
+        </seat>
+        <seat type="ECONOMY">
+            <count>100</count>
+            <price>0.9</price>
+        </seat>
+    </airplane>
+    <airplane mark="AIRBUS">
+        <type>A220</type>
+        <seat type="FIRST">
+            <count>2</count>
+            <price>1.5</price>
+        </seat>
+        <seat type="BUSINESS">
+            <count>10</count>
+            <price>1.2</price>
+        </seat>
+        <seat type="ECONOMY">
+            <count>50</count>
+            <price>1.1</price>
+        </seat>
+    </airplane>
+    <airports>
+        <airport code="WAW" city="WARSZAWA">
+            <name lang="pl">Lotnisko Chopina</name>
+            <name lang="en">Chopin Airport</name>
+            <price currency="EUR">150</price>
+        </airport>
+        <airport code="WAW" city="KRAKOW">
+            <name lang="pl">Lotnisko Chopina</name>
+            <name lang="en">Chopin Airport</name>
+            <price currency="EUR">100</price>
+        </airport>
+    </airports>
+</configuration>
